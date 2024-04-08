@@ -2,7 +2,7 @@
   "name": "pravaayu-dashboard",
   "version": "5.0.0-rc.0",
   "description": "pravaayu dashboard to add services",
-  "homepage": ".",
+  "homepage": "http://mirzasafwan.github.io/dashboard",
   "bugs": {
     "url": " http://ashishingle@gitlab.bookeventz.com:8100/ashishingle/pravaayu-dashboard.git/issues"
   },
@@ -13,6 +13,9 @@
   "license": "MIT",
   "author": "Pravaayu Ashish",
   "scripts": {
+
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "vite build",
     "lint": "eslint \"src/**/*.js\"",
     "serve": "vite preview",
@@ -31,6 +34,7 @@
     "chart.js": "^4.4.2",
     "classnames": "^2.5.1",
     "core-js": "^3.36.0",
+    "gh-pages": "^6.1.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
