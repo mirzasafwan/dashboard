@@ -1,0 +1,1 @@
+import{j as r}from"./index-BhCh3Y0R.js";import"./index.es-JtArKx5t.js";import t from"./Page404-DHxxLWLw.js";import"./CRow-r-KbXgAR.js";import"./CInputGroupText-D89KB4Vg.js";import"./cil-magnifying-glass-COgjSVTM.js";import"./CFormInput-D-8LPFWP.js";const n=()=>r.jsx(r.Fragment,{children:r.jsx(t,{})});export{n as default};
