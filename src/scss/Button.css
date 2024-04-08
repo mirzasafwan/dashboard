@@ -1,0 +1,16 @@
+#new-button{
+margin-top: 10px;
+}
+
+#form-button{
+    margin-top: 10px;
+}
+
+#new-button-down{
+    margin-top: 10px; 
+    display: flex
+}
+#abcd{
+    cursor: pointer;
+
+}
